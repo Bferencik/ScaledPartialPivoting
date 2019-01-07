@@ -1,7 +1,7 @@
 #include "matrix.h"
 
 
-int main(){
+int main(int argc, char * argv[]){
 
 	int i; 			//Indexing variable
 	int j;			//Indexing variable 
@@ -15,12 +15,7 @@ int main(){
 	double * b;		//Desired vector to map to; Ax = b  
 	double * x; 		//Vector that maps A to b; Ax = b
 
-
-
-	printf("%s", "Enter size of square matrix: ");
-	n = getInt();
-
-	flush();		//* Clears stream in case a double was entered *
+	n = atoi(argv[1]); 
 
 	/* Allocating memory to double array, vector x, and vector b */	
 
