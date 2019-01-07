@@ -150,21 +150,6 @@ void ZeroTemp(double *inputTemp, int size){
 	}
 }
 
-/* Validates integer input. Flushes stream if bad input received */ 
-
-int getInt(){
-
-	int num; 
-
-	while(!(scanf("%d", &num))){
-
-		printf("%s", "\nError: interger not entered\n");
-		flush();
-	        printf("%s", "Please enter interger: "); 	
-	}
-
-	return num; 
-}
 
 /* Validates double input. Flushes stream if bad input received */ 
 
