@@ -12,14 +12,15 @@ To use, compile the source code (ex in linux environment)
 ```
 gcc Main.c Function.c -o foo 
 ```
-and excecute: 
+and excecute with size of matrix n: 
 
 ```
-./foo 
+./foo n
 ```
 
 ## Sample Output 
 
+Wtih ./foo 4: 
 
 
 1.190 2.110 -100.000 1.000 | 1.12<br/>
