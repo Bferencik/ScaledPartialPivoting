@@ -1,5 +1,5 @@
 #include <stdio.h>  	/* scanf, printf, NULL */  
-#include <stdlib.h> 	/* malloc, free */
+#include <stdlib.h> 	/* malloc, atoi, free */
 #include <math.h>	/* fabs */
 
 
@@ -16,8 +16,6 @@ double max(double *inputRow, int size);
 int matchIndex(double *inputRow, double entry);
 
 void ZeroTemp(double *inputTemp, int size);
-
-int getInt(); 
 
 double getDouble();
 
